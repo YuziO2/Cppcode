@@ -20,5 +20,5 @@ normal::~normal()
 
 int main()
 {
-    
+    cout<<"Hello world!"<<endl;
 }
