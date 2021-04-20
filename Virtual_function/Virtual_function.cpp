@@ -97,13 +97,12 @@ int main()
 		int chooser; cin >> chooser;
 		switch (chooser)
 		{
-		case 1:p=&A; break;
-		case 2:p=&B; break;
-		case 3:p=&C; break;
+		case 1:p=&A;p->input(); p->pay(); p->print(); break;
+		case 2:p=&B;p->input(); p->pay(); p->print(); break;
+		case 3:p=&C;p->input(); p->pay(); p->print(); break;
 		default:cout << "Wrong input!Please enter 1,2 or 3!!" << endl;
 			break;
 		}
-        p->input(); p->pay(); p->print();
 		cout << "enter 1 to quit, 2 to continue:  "; int continue_chooser; cin >> continue_chooser;
 		cout << endl;
 		if (continue_chooser==1)
