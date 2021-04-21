@@ -8,7 +8,7 @@
             "name": "g++ - 生成和调试活动文件",
             "type": "cppdbg",
             "request": "launch",
-            "program": "/home/yuzi/repo/Cppcode/Virtual_function/Virtual_function",
+            "program": "/home/yuzi/repo/Cppcode/Virtual_function/Template",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
